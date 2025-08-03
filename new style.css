@@ -1,0 +1,35 @@
+@charset "utf-8";
+.container-fluid {
+	background-color: #E8E2E2;
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+	background-color: #0F0F0F;
+}
+#headingOne1 .mb-0 a {
+
+}
+#headingOne1 .mb-0 a {
+	-webkit-box-shadow: 0 0 0px 0;
+	box-shadow: 0 0 0px 0;
+	text-shadow: 0px 0px #525151;
+}
+#headingTwo1 .mb-0 .collapsed {
+}
+.container .text-center strong {
+	color: #FFFFFF;
+	border-color: #000000;
+	border-width: thin;
+}
+.container .text-center strong {
+}
+.btn.btn-primary {
+	background-color: #232323;
+}
+.form-container.p-4.bg-white.rounded.shadow .text-center.mb-4 strong {
+	color: #232323;
+}
+.container h1 strong {
+	color: #FDFDFD;
+}
+.contact-info p .fas.fa-map-marker-alt {
+}
