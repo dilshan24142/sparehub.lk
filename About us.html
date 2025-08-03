@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>About Us</title>
-    <!-- Bootstrap -->
+
 	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
 	  
 	  <style>
@@ -34,7 +34,7 @@
     }
 
 
-  /* Optional: dropdown menu text */
+
   .dropdown-menu {
     background-color: #343434;
   }
@@ -51,7 +51,7 @@
       max-width: 100%;
       border-radius: 8px;
     }
-		.about-header {
+.about-header {
   position: relative;
   background-image: url("images/about.jpg");
   background-size: cover;
@@ -69,18 +69,36 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* dark overlay */
+  background-color: rgba(0, 0, 0, 0.5); 
   z-index: 1;
 }
 
 .about-header .container {
   position: relative;
   z-index: 2;
+	
+	
+}
+		  .about-header {
+  background-color: #f8f9fa;
+  padding: 30px;
+  transition: background-color 0.4s ease;
 }
 
-		  h3{
-      padding: 20px 5px;
-    }
+.about-header:hover {
+  background-color: #e2e6ea;
+}
+
+.about-header h1 {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.about-header:hover h1 {
+  transform: scale(1.05);
+  color: #007bff;
+}
+
+
     .footer-section {
       background: linear-gradient(to bottom right, red, #011);
       color: #fff;
@@ -121,44 +139,69 @@
     }
 
 	 
+      .about-header {
+    padding-right: px;
+    padding-left: px;
+    padding-top: px;
+    padding-bottom: px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* [disabled]clear: none; */
+}
+      .about-header {
+}
       </style>
 	  <link href="new style.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <div class="container-fluid"></div>
+    
+	  
+	  <div class="container-fluid"></div>
 <div class="container"></div>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light"> 
-    <p> <a class="navbar-brand d-flex align-items-center" href="#">
-  <img src="images/logo.jpg.png" alt="SpareHubLK Logo" style="height: 60px; width: auto; margin-right: 10px;">
-  <span style="color: white; font-family: 'Orbitron', sans-serif;">SpareHubLK</span>
-</a></p>
-    <p><a class="navbar-brand" href="#">&nbsp;</a> </p>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-	    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-	      <ul class="navbar-nav mr-auto">
-	        <li class="nav-item active"> <a class="nav-link" href="SpareHubLK.html" target="_blank">Home <span class="sr-only">(current)</span></a> </li>
-	        <li class="nav-item"> <a class="nav-link" href="About us.html" >About us&nbsp;</a> </li>
-			  <li class="nav-item"> <a class="nav-link" href="Contact us.html" >Contact us&nbsp;</a> </li>
-	        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Vehicle Type&nbsp; </a>
-	          <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="#">Car</a> <a class="dropdown-item" href="#">Van</a>
-				  <a class="dropdown-item" href="#">Tractor</a>
-	            
-	            <a class="dropdown-item" href="#">Bus</a> </div>
-            </li>
-	        <li class="nav-item"> <a class="nav-link" href="Gallery.html" >Gallery&nbsp;</a> </li>
-          </ul>
-	      <form class="form-inline my-2 my-lg-0">
-	        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-	        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-    </div>
-  </nav>
-	  <header class="about-header">
-    <div class="container">
-      <h1 class="text-center"><strong>About SpareHubLK</strong></h1>
-<p class="text-center">Reliable. Trusted. Delivered.</p>
-    </div>
-  </header>
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #040000;">
+  <a class="navbar-brand d-flex align-items-center" href="#">
+    <img src="images/logo.jpg.png" alt="SpareHubLK Logo" style="height: 60px; width: auto; margin-right: 10px;">
+    <span style="color: white; font-family: 'Orbitron', sans-serif;">SpareHubLK</span>
+  </a>
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active"><a class="nav-link" href="Index.html" target="_blank">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="About us.html">About Us</a></li>
+      <li class="nav-item"><a class="nav-link" href="Contact us.html">Contact Us</a></li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" data-toggle="dropdown">Vehicle Type</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Car</a>
+          <a class="dropdown-item" href="#">Van</a>
+          <a class="dropdown-item" href="#">Tractor</a>
+          <a class="dropdown-item" href="#">Bus</a>
+        </div>
+      </li>
+      <li class="nav-item"><a class="nav-link" href="Gallery.html">Gallery</a></li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<header class="about-header">
+  <div class="container">
+    <h1 class="text-center"><strong>About SpareHubLK</strong></h1>
+    <p class="text-center">Reliable. Trusted. Delivered.</p>
+  </div>
+</header>
+
 	  <div class="col-md-6 col-lg-12">
           <h3><strong>Who We Are</strong></h3>
 <p class="text-left">SpareHubLK began as a local venture with a simple goal—connect people across Sri Lanka with high-quality spare parts at honest prices. What started as a small operation quickly grew into a trusted name in the automotive industry, known for genuine products, prompt service, and a passion for vehicles.</p>
@@ -209,7 +252,7 @@
         <div class="col-lg-2 col-md-6 mb-4">
           <h5 class="footer-title">QUICK LINKS</h5>
           <ul class="list-unstyled">
-            <li><a href="SpareHubLK.html">Home</a></li>
+            <li><a href="Index.html">Home</a></li>
             <li><a href="About us.html">About Us</a></li>
             <li><a href="Contact us.html">Contact Us</a></li>
             <li><a href="Gallery.html">Gallery</a></li>
@@ -251,14 +294,8 @@
   </a>
 
 
-  <!-- body code goes here -->
-
-
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 	<script src="js/jquery-3.4.1.min.js"></script>
-
-	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="js/popper.min.js"></script> 
-  <script src="js/bootstrap-4.4.1.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
   </body>
 </html>
